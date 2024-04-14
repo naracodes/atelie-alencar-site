@@ -3,44 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Atêlie Alencar</title>
 </head>
 <body>
-    <h1>Formulário de Compra</h1>
-    <form action="">
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome">
-        <label for="telefone">Telefone</label>
-        <input type="tel" name="telefone" id="telefone">
+    <header>
+        <img src="./img/logo-atelie.jpeg" alt="Logo do Atelie Alencar">
+        <nav>
+            <ul>
+                <li><a href="">Categorias</a></li>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="./formulario.html">Contato</a></li>
+                <li><a href="">Sobre nós</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Atêlie Alencar</h1>
+        <h2>Tranformando ideias em presentes</h2>
         <section>
-            <p>Entrega:</p>
-            <input type="radio" name="entrega" id="sim" value="sim">
-            <label for="sim">Sim</label>
-            <input type="radio" name="entrega" id="nao" value="nao">
-            <label for="nao">Não</label>
+            <div>
+                <h3>Trabalhamos com presentes personalizados</h3>
+                <p>"Transforme momentos especiais em lembranças únicas! Descubra nossa coleção de presentes personalizados, 
+                feitos com amor e cuidado para celebrar cada ocasião de forma especial."</p>
+            </div>
+            <div>
+                <h3>Trabalhamos com lembrancinhas</h3>
+                <p>"Descubra nossas lembrancinhas personalizadas, feitas com carinho para celebrar momentos únicos e especiais."</p>
+            </div>
         </section>
-        <section>
-            <p>Endereço Completo:</p>
-            <label for="rua">Rua</label>
-            <input type="text" name="endereco" id="rua">
-            <label for="numero">Número</label>
-            <input type="number" name="endereco" id="numero">
-            <br>
-            <label for="bairro">Bairro</label>
-            <input type="text" name="endereco" id="bairro">
-            <label for="cidade">Cidade</label>
-            <input type="text" name="endereco" id="cidade">
-        </section>
-        <section>
-            <p>Forma de pagamento:</p>
-            <input type="checkbox" name="forma-pagamento" id="dinheiro" value="dinheiro">
-            <label for="dinheiro">Dinheiro</label>
-            <input type="checkbox" name="forma-pagamento" id="pix" value="pix">
-            <label for="pix">Pix</label>
-            <input type="checkbox" name="forma-pagamento" id="cartao" value="cartao">
-            <label for="cartao">Cartão</label>
-        </section>
-        <button type="submit">Enviar</button>
-    </form>
+    </main>
+    <footer></footer>
 </body>
 </html>
